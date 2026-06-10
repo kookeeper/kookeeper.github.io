@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Foco em Dia</title>
+  <style>
+    :root { --verde: #2E7D32; --verde-escuro: #1B5E20; --texto: #1a1a1a; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--texto); line-height: 1.6; margin: 0; background: #fafafa;
+    }
+    header {
+      background: linear-gradient(135deg, var(--verde), var(--verde-escuro));
+      color: #fff; padding: 32px 20px;
+    }
+    .container { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+    header .container { padding: 0; }
+    h1 { margin: 0 0 4px; font-size: 1.7rem; }
+    header p { margin: 0; opacity: .9; }
+    main { padding: 24px 0 64px; }
+    h2 { color: var(--verde-escuro); margin-top: 32px; font-size: 1.2rem; }
+    h3 { margin-top: 20px; font-size: 1.02rem; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    a { color: var(--verde); }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: #eef5ee; }
+    .nota { background: #fff8e1; border-left: 4px solid #ffb300; padding: 10px 14px; border-radius: 4px; }
+    footer { color: #666; font-size: .9rem; padding: 24px 0; border-top: 1px solid #e0e0e0; }
+    code { background: #eee; padding: 1px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Política de Privacidade — Foco em Dia</h1>
+      <p>Última atualização: 10 de junho de 2026</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <p>
+      Esta Política de Privacidade descreve como o aplicativo <strong>Foco em Dia</strong>
+      ("aplicativo", "nós") coleta, usa e protege os seus dados. Ao usar o aplicativo,
+      você concorda com as práticas descritas aqui. Tratamos os dados de acordo com a
+      <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.
+    </p>
+
+    <div class="nota">
+      <strong>Antes de publicar:</strong> substitua os campos marcados como
+      <code>[...]</code> (e-mail de contato e, se aplicável, nome do responsável)
+      pelas suas informações reais.
+    </div>
+
+    <h2>1. Quem somos</h2>
+    <p>
+      O Foco em Dia é um aplicativo de organização de atividades familiares, com
+      lembretes e compartilhamento entre membros de uma família. O responsável pelo
+      tratamento dos dados é <strong>[Kookeeper / seu nome ou empresa]</strong>.
+      Contato: <strong>[seu-email-de-contato@exemplo.com]</strong>.
+    </p>
+
+    <h2>2. Dados que coletamos</h2>
+    <p>Coletamos apenas o necessário para o funcionamento do aplicativo:</p>
+    <table>
+      <thead>
+        <tr><th>Dado</th><th>Para quê</th><th>Origem</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>E-mail</td><td>Autenticação e identificação da sua conta</td><td>Você (cadastro) ou sua conta Google</td></tr>
+        <tr><td>Nome</td><td>Exibição do seu perfil e identificação na família</td><td>Você ou sua conta Google</td></tr>
+        <tr><td>Foto de perfil (opcional)</td><td>Personalização do perfil</td><td>Você (galeria) ou sua conta Google</td></tr>
+        <tr><td>Atividades e conteúdo</td><td>Título, descrição, datas, status e recorrência das suas atividades</td><td>Você</td></tr>
+        <tr><td>Dados de família</td><td>Nome da família, código de convite, membros e papéis</td><td>Você e demais membros</td></tr>
+        <tr><td>Pontuação (gamificação)</td><td>Pontos e número de atividades concluídas</td><td>Gerado pelo uso do app</td></tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>Não</strong> coletamos localização, contatos, dados de pagamento, nem
+      utilizamos os seus dados para publicidade. O aplicativo <strong>não exibe anúncios</strong>.
+    </p>
+
+    <h2>3. Como usamos os dados</h2>
+    <ul>
+      <li>Autenticar o seu acesso e manter a sua sessão.</li>
+      <li>Criar, exibir e sincronizar as suas atividades entre os seus dispositivos.</li>
+      <li>Compartilhar atividades com os membros da sua família (quando você escolhe esse escopo).</li>
+      <li>Gerar lembretes locais no seu dispositivo.</li>
+      <li>Calcular a sua pontuação de progresso.</li>
+    </ul>
+
+    <h2>4. Lembretes (notificações)</h2>
+    <p>
+      Os lembretes são <strong>agendados localmente no seu dispositivo</strong>. Para isso,
+      o aplicativo solicita permissão de notificações, de alarmes e, opcionalmente, de
+      isenção da otimização de bateria — apenas para que os lembretes funcionem no horário.
+      Esses lembretes não enviam dados a servidores externos.
+    </p>
+
+    <h2>5. Compartilhamento e provedores</h2>
+    <p>
+      Não vendemos nem compartilhamos os seus dados com terceiros para fins comerciais.
+      Utilizamos os serviços do <strong>Google Firebase</strong> como provedores de
+      infraestrutura (operadores de tratamento):
+    </p>
+    <ul>
+      <li><strong>Firebase Authentication</strong> — login por e-mail/senha e Google.</li>
+      <li><strong>Cloud Firestore</strong> — armazenamento das suas atividades, perfil e dados de família.</li>
+      <li><strong>Login com Google</strong> — autenticação opcional via conta Google.</li>
+    </ul>
+    <p>
+      Os dados ficam armazenados na infraestrutura do Google Cloud/Firebase. Consulte a
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
+      política de privacidade do Firebase</a> e a
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+      política do Google</a>.
+    </p>
+
+    <h2>6. Dados compartilhados com a família</h2>
+    <p>
+      Ao entrar em uma família ou marcar uma atividade como "compartilhada", o seu
+      <strong>nome</strong>, sua <strong>foto</strong> e as <strong>atividades de escopo familiar</strong>
+      ficam visíveis para os demais membros daquela família. Atividades marcadas como
+      "somente para mim" permanecem privadas.
+    </p>
+
+    <h2>7. Segurança</h2>
+    <p>
+      Os dados são transmitidos com criptografia em trânsito (HTTPS/TLS) e protegidos por
+      regras de acesso que restringem a leitura e a escrita ao próprio usuário e aos
+      membros autorizados de cada família.
+    </p>
+
+    <h2>8. Retenção e exclusão</h2>
+    <p>
+      Mantemos os seus dados enquanto a sua conta existir. Você pode, a qualquer momento:
+    </p>
+    <ul>
+      <li>Editar o seu nome e a sua foto no próprio aplicativo;</li>
+      <li>Sair de uma família;</li>
+      <li>Excluir atividades;</li>
+      <li><strong>Solicitar a exclusão da sua conta e de todos os dados associados</strong>,
+        pelo aplicativo ou enviando um pedido para <strong>[seu-email-de-contato@exemplo.com]</strong>.
+        A exclusão é processada em até 30 dias.</li>
+    </ul>
+
+    <h2>9. Seus direitos (LGPD)</h2>
+    <p>
+      Você tem direito a confirmar a existência de tratamento, acessar, corrigir,
+      portar, anonimizar ou eliminar os seus dados, além de revogar o consentimento.
+      Para exercer esses direitos, contate <strong>[seu-email-de-contato@exemplo.com]</strong>.
+    </p>
+
+    <h2>10. Crianças</h2>
+    <p>
+      O aplicativo não é direcionado a menores de 13 anos e não coletamos
+      intencionalmente dados dessas crianças. O cadastro deve ser feito por um responsável.
+    </p>
+
+    <h2>11. Alterações nesta política</h2>
+    <p>
+      Podemos atualizar esta política periodicamente. A data da última atualização é
+      indicada no topo desta página. Mudanças relevantes serão comunicadas no aplicativo
+      ou por e-mail.
+    </p>
+
+    <h2>12. Contato</h2>
+    <p>
+      Dúvidas sobre esta política ou sobre os seus dados:
+      <strong>[seu-email-de-contato@exemplo.com]</strong>.
+    </p>
+
+    <footer>
+      Foco em Dia • Política de Privacidade • Última atualização: 10/06/2026
+    </footer>
+  </main>
+</body>
+</html>
